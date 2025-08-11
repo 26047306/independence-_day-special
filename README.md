@@ -35,11 +35,6 @@ Simply open the `index.html` file in your preferred browser.
 
 ---
 
-## 📷 Screenshots
-*(Add your project screenshots here)*
-
----
-
 ## 🎯 Purpose
 To honor India's independence movement, preserve historical knowledge, and inspire patriotism among all generations.
 
