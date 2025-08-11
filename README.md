@@ -27,7 +27,7 @@ The website showcases the nation’s rich history, freedom fighters, national sy
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/india-independence-day-tribute.git
+git clone https://26047306.github.io/independence-_day-special/
 ```
 
 ### 2. Open in browser
