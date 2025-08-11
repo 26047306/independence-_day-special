@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Independence Day Tribute</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">🇮🇳 Tribute</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#fighters">Freedom Fighters</a></li>
+                <!-- <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li> -->
+            </ul>
+        </nav>
+        <div class="nav-controls">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search Fighters...">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <button id="music-toggle" class="music-btn">
+                <i class="fa-solid fa-volume-high"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <!-- <section id="home" class="hero-section">
+            <div class="clouds"></div>
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Happy Independence Day</h1>
+                <p>Celebrating the heroes who shaped our nation's destiny</p>
+                <div class="monuments">
+                    <img src="images/monuments/india-gate.jpg" alt="India Gate" class="monument" style="--i:1;">
+                    <img src="images/monuments/red-fort.jpg" alt="Red Fort" class="monument" style="--i:2;">
+                    <img src="images/monuments/tajmahal.jpg" alt="Red Fort" class="monument" style="--i:3;">
+                    </div>
+            </div>
+        </section> -->
+        <section id="home" class="hero-section">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="background-video">
+                <source src="video/independence.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+            <div class="clouds"></div>
+            <div class="hero-content" data-aos="fade-up">
+                <h1>Happy Independence Day</h1>
+                <p>Celebrating the heroes who shaped our nation's destiny</p>
+                <div class="monuments">
+                    <img src="images/monuments/india-gate.jpg" alt="India Gate" class="monument" style="--i:1;">
+                    <img src="images/monuments/red-fort.jpg" alt="Red Fort" class="monument" style="--i:2;">
+                    <img src="images/monuments/tajmahal.jpg" alt="Taj Mahal" class="monument" style="--i:3;">
+                </div>
+            </div>
+        </section>
+
+
+        <section id="fighters" class="fighters-section">
+            <h2>Our National Heroes</h2>
+            <div id="fightersGrid" class="fighters-grid">
+                </div>
+        </section>
+    </main>
+    
+    <div id="fighterModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modalImg" src="" alt="Freedom Fighter">
+            <h2 id="modalName"></h2>
+            <p id="modalDates"></p>
+            <p id="modalNickname"></p>
+            <p id="modalDetails"></p>
+        </div>
+    </div>
+
+    <audio id="patrioticSong" src="audio/song.mp3" loop autoplay></audio>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1000,
+          once: true,
+      });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
