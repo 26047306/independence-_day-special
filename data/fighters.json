@@ -17,15 +17,7 @@
   "nickname": "Babasaheb",
   "details": "Bhimrao Ramji Ambedkar was an Indian jurist, economist, social reformer, and the principal architect of the Constitution of India. He campaigned against social discrimination towards the untouchables and played a key role in shaping independent India's policies on social justice."
 },
-  {
-    "id": 2,
-    "name": "Sardar Vallabhbhai Patel",
-    "image": "images/freedom-fighters/Vallabhbhai-Patel.webp",
-    "birth_date": "October 31, 1875",
-    "death_date": "December 15, 1950",
-    "nickname": "Iron Man of India",
-    "details": "Vallabhbhai Patel, a senior leader of the Indian National Congress, was a key figure in the country's struggle for independence and its integration into a united, independent nation."
-  },
+ 
     {
     "id": 8,
     "name": "Jawaharlal Nehru",
@@ -34,6 +26,15 @@
     "death_date": "May 27, 1964",
     "nickname": "Pandit Nehru, Chacha Nehru",
     "details": "Jawaharlal Nehru was the first Prime Minister of India and a central figure in Indian politics before and after independence."
+  },
+   {
+    "id": 2,
+    "name": "Sardar Vallabhbhai Patel",
+    "image": "images/freedom-fighters/Vallabhbhai-Patel.webp",
+    "birth_date": "October 31, 1875",
+    "death_date": "December 15, 1950",
+    "nickname": "Iron Man of India",
+    "details": "Vallabhbhai Patel, a senior leader of the Indian National Congress, was a key figure in the country's struggle for independence and its integration into a united, independent nation."
   },
   {
     "id": 4,
@@ -434,3 +435,4 @@
   }
 
 ]
+
