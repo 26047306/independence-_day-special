@@ -20,7 +20,7 @@
   {
     "id": 2,
     "name": "Sardar Vallabhbhai Patel",
-    "image": "images/freedom-fighters/vallabhbhai-patel.webp",
+    "image": "images/freedom-fighters/Vallabhbhai-Patel.webp",
     "birth_date": "October 31, 1875",
     "death_date": "December 15, 1950",
     "nickname": "Iron Man of India",
@@ -432,4 +432,5 @@
     "nickname": "Architect of Economic Reforms",
     "details": "Manmohan Singh served as Prime Minister from 2004 to 2014 and is credited with key economic reforms."
   }
+
 ]
