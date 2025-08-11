@@ -4,7 +4,8 @@ A responsive and interactive web project dedicated to celebrating India's journe
 The website showcases the nation’s rich history, freedom fighters, national symbols, and more — all presented with a vibrant tricolor theme to evoke patriotism and pride.
 
 ---
-![Uploading image.png…]()
+<img width="944" height="448" alt="project_image" src="https://github.com/user-attachments/assets/40ade997-93bf-4ba8-a3ef-eb63b36ff3a2" />
+
 
 ## 📜 Features
 - **Historical Timeline** – Key events from the independence movement.
